@@ -1,0 +1,106 @@
+@WebApplication2_HostAddress = https://localhost:7267
+
+GET {{WebApplication2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{WebApplication2_HostAddress}}/weatherforecast
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+GET {{WebApplication2_HostAddress}}/api/todoitems
+
+###
+
+@id=1
+GET {{WebApplication2_HostAddress}}/api/todoitems/{{id}}
+
+###
+
+POST {{WebApplication2_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+PUT {{WebApplication2_HostAddress}}/api/todoitems/{{1}}
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+
+###
+
+PUT {{WebApplication2_HostAddress}}/api/TodoItems/{{1}}
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+DELETE {{WebApplication2_HostAddress}}/api/TodoItems/{{1}}
+
+###

@@ -1,0 +1,16 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@TodoApi_HostAddress = https://localhost:7267
+
+### Create a new todo item
+POST {{TodoApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+### Get all todo items
+GET {{TodoApi_HostAddress}}/api/todoitems
+Accept: application/json
